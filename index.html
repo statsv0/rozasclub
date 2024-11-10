@@ -18,26 +18,10 @@
 </head>
 
 <body>
-  <div class="header-container">
-    <h1><img class="icon" alt="icon"
-        src="https://raw.githubusercontent.com/statsv0/resources/refs/heads/main/favicon.png">Stats</h1>
-    <h3>Rozas Club Ranking</h3>
-    <div id="info">
-    </div>
-    <br>
-    <div>Source: https://rozas.syltek.com/</div>
-    <div>Last update: 8/11/2024 10:23h</div>
-  </div>
-
-
-  <table cellspacing="0" cellpadding="0">
-    <thead>
-      <tr id="column-info"></tr>
-    <thead>
-    <tbody id="list"></tbody>
-  </table>
+  <stats-template title="Rozas Club Ranking" source="https://rozas.syltek.com/"
+    date="8/11/2024 10:23h"></stats-template>
 </body>
-<script src="https://statsv0.github.io/resources/stats.min.js"
-  club-url="stats.json"></script>
+<script src="../../resources/app.js"
+  club-url="https://raw.githubusercontent.com/statsv0/rozasclub/refs/heads/main/stats.json"></script>
 
 </html>
